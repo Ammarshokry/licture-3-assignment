@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.727);
+}
+
+.head{
+    text-align: center;
+    padding-top: 4rem;
+    color: white;
+}
+.head h1{
+    font-size: 50px;
+}
+.head p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.head a{
+    color: white;
+}
+
+.plansarea{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    padding-top: 10rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.plans{
+    width: 60%;
+    height: 80vh;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list li{
+    padding-top: 20px;
+}
+
+.list{
+    padding-top: 10rem;
+    list-style: none;
+    text-align: center;
+    color: #808080;
+}
+
+button{
+    background-color: orangered;
+    color: white;
+    width: 60%;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.hatchling{
+    width: 32%;
+    height: 100%;
+    background-color: white;
+}
+
+#purple{
+    width: 80%;
+    height: 30vh;
+    background-color: #742bf1;
+    margin-left: 2rem;
+    margin-top: -7rem;
+}
+
+#purple h2{
+    color: white;
+    text-align: center;
+    gap: 10px;
+    font-size: 30px;
+}
+
+#purple h1{
+    color: white;
+    text-align: center;
+    gap: 10px;
+    font-size: 35px;
+}
+
+.baby{
+    width: 32%;
+    height: 100%;
+    background-color: white;
+}
+
+#green{
+    width: 80%;
+    height: 30vh;
+    margin-left: 2rem;
+    margin-top: -7rem;
+    background-color: #48980e;
+}
+
+#green h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#green h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.premium{
+    width: 32%;
+    height: 100%;
+    background-color: white;
+}
+
+#orange{
+    width: 80%;
+    height: 30vh;
+    margin-left: 2rem;
+    margin-top: -7rem;
+    background-color: #be6009;
+}
+
+#orange h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#orange h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.end{
+    width: 100%;
+    height: 20vh;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
